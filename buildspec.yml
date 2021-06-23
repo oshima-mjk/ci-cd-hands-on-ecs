@@ -7,7 +7,7 @@ env:
 phases:
   install:
      runtime-versions:
-        docker: 1
+        docker: 18
   pre_build:
     commands:
       ## ECRにログイン
