@@ -7,10 +7,7 @@ env:
 phases:
   install:
      runtime-versions:
-        docker: 18
-    commands:
-      ## 依存パッケージをインストール
-      - npm install
+        docker: 1
   pre_build:
     commands:
       ## ECRにログイン
